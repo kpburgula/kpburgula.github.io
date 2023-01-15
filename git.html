@@ -4,15 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <!-- BootStrap 5.x CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light" id="navid">
+        <a class="navbar-brand" href="index.html">K P B</a>
+    </nav>
     <div>
         <h1>Git Commands</h1>
         <hr />
         <h3>Create a repository</h3><code>git init </code>
         <h3>Check status</h3><code>git status </code>
-        <h3>Add a file - </h3><code>git add &lt;file name&gt; or git add * </code>
+        <h3>Add a file </h3><code>git add &lt;file name&gt; or git add * </code>
         <h3>After staging, to commit</h3><code>git commit -m &lt;add comments&gt; </code>
         <h3>Pushing the changes to remote repository</h3>
         <code>git remote add origin &quot;&lt;URL to the repository&gt;&quot; </code>
