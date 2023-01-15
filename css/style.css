@@ -20,3 +20,18 @@ code{
 #navid {
     padding: 2% 15% 2% 15%;
 }
+a{
+    background-color: #472183;
+    color: white;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20%;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: #8c71b8;
+}
+
